@@ -1,0 +1,429 @@
+a.
+class CalculateSum
+{
+public static void main(String args[] )
+	{
+	   int a = 10;
+	   int b = 3;
+	   int sum = a + b;	
+	   System.out.println(sum);
+
+	}
+
+}
+
+
+b.
+class CalculateDifference
+{
+public static void main(String args[] )
+	{
+	   int a = 10;
+	   int b = 3;
+	   int d = a - b;	
+	   System.out.println(d);
+
+	}
+
+}
+
+
+c.
+class CalculateProduct
+{
+public static void main(String args[] )
+	{
+	   int a = 10;
+	   int b = 3;
+	   int product = a * b;	
+	   System.out.println(product);
+
+	}
+
+}
+
+
+d.
+class CalculateQuotient
+{
+public static void main(String args[] )
+	{
+	   int a = 10;
+	   int b = 3;
+	   int quotient = a / b;	
+	   System.out.println(quotient);
+
+	}
+
+}
+
+
+2. 
+		int a = 5;
+		int b = 2;
+		System.out.println(a + b);		7
+		System.out.println(a - b);		3
+		System.out.println(a * b);		10
+		System.out.println(a / b);		2
+		System.out.println(a % b);		1
+
+Section 2
+1. 
+		int x = 10;
+		int y = 20;
+		System.out.println(x == y);		false
+		System.out.println(x != y);		true		
+		System.out.println(x > y);		false
+		System.out.println(x < y);		true
+		System.out.println(x >= y);		false
+		System.out.println(x <= y);		true
+
+2.
+class Compare
+{
+public static void main(String args[] )
+	{
+	   float a = 10.5f;
+	   float b = 3.1f;
+	   System.out.println(a==b);
+
+	}
+
+}
+
+Section 3
+1. 
+class BinaryOutput
+{
+public static void main(String args[] )
+	{
+	   	int a = 5; // 0101 in binary
+		int b = 3; // 0011 in binary
+		System.out.println(a & b);		1
+		System.out.println(a | b);		7
+		System.out.println(a ^ b);		6
+		System.out.println(~a);			-6
+		System.out.println(a << 1);		10
+		System.out.println(a >> 1);		2
+
+
+	}
+
+}
+
+2.
+class BitwiseOutput
+{
+public static void main(String args[] )
+	{
+	   	int a = 7; // 0111 in binary
+		int b = 4; // 0100 in binary
+		System.out.println(a & b);		4
+		System.out.println(a | b);		7
+		System.out.println(a ^ b);		3
+		System.out.println(~a);			-8
+
+	}
+
+}
+
+
+Section 4
+1.Explicit type conversion in programming is done manually by a programmer
+  implicit type conversion id handled automatically by a compiler
+
+2.
+class DoubleToInt
+{
+public static void main(String args[] )
+	{	   	
+		
+		int a = 5;
+		double b = 542.78;
+
+		//int c = a; //Type conversion
+		//double c = a; //double is bigger than int, value is saved
+
+		int c = (int) b;  //Can't save double to int hence the conversion
+    		System.out.println(c);    
+		
+				
+
+	}
+
+}
+
+
+Section 5
+1.
+class StringToInteger
+{
+public static void main(String args[] )
+	{
+	   	String s = "47"; 
+		int n = Integer.parseInt(s); 
+		System.out.println(n);
+		
+
+	}
+
+}
+
+2.
+Runtime error should be printed NumberFormatException. An error handling should be introduced - try-catch in this case
+
+
+Section 6
+1.
+class Add2Numbers
+{
+public static void main(String args[] )
+	{
+	   	int firstNum = Integer.parseInt(args[0]); 
+		int secondNum = Integer.parseInt(args[1]);
+		int result =  firstNum + secondNum;
+		System.out.println("The result is "+ result);
+		
+
+	}
+
+}
+
+2.
+If no arguments are passed, the program will crash. An error handling should be introduced - try-catch
+
+
+Section 7
+1.
+int - this takes whole number. Default value is 0
+float - this takes floating and double. The default value is 0.0f
+char - It is 16 bit Unicode character
+boolean - Takes true or false
+byte - byte data type can have values from -128 to 127
+short - short data type in Java can have values from -32768 to 32767 and defaults to zero
+long - default value is 0 and number must be suffix with L eg. 
+double - Default value: 0.0 (0.0d) 
+
+2.
+class ByteRange
+{
+public static void main(String args[] )
+	{	   	
+		
+		 byte range;
+    		range = 123;
+    		System.out.println(range);    // 
+		
+				
+
+	}
+
+}
+
+class IntegerRange
+{
+public static void main(String args[] )
+	{	   	
+		
+		int range;
+    		range = 123;
+    		System.out.println(range);    
+		
+				
+
+	}
+
+}
+
+class FloatRange
+{
+public static void main(String args[] )
+	{	   	
+		
+		float range;
+    		range = 123f;
+    		System.out.println(range);    
+		
+				
+
+	}
+
+}
+
+class CharacterRange
+{
+public static void main(String args[] )
+	{	   	
+		
+		char range;
+    		range = '7';
+    		System.out.println(range);    
+		
+				
+
+	}
+
+}
+
+class BooleanRange
+{
+public static void main(String args[] )
+	{	   	
+		
+		boolean range = false;
+    		System.out.println(range);    
+		
+				
+
+	}
+
+}
+
+class LongRange
+{
+public static void main(String args[] )
+	{	   	
+		
+		long range = 2147483647;
+    		System.out.println(range);    
+		
+				
+
+	}
+
+}
+
+class ShortRange
+{
+public static void main(String args[] )
+	{	   	
+		
+		short range = 301;
+    		System.out.println(range);    
+		
+				
+
+	}
+
+}
+
+
+Section 8
+1.
+Difference between float and double in java:
+float has a byte size of 4, double has a byte size of 8
+All numbers that have decimal point are called floating point numbers. By default float is treated as double until you prefix with f or F
+
+2.
+class FloatDouble
+{
+public static void main(String args[] )
+	{	   	
+		
+		float n;
+		
+		n = 7.2f/2;
+		
+		System.out.println(n);
+		
+
+	}
+
+}
+
+Double:
+
+class DoubleNum
+{
+public static void main(String args[] )
+	{	   	
+		
+		double n;
+		
+		n = 2.71d/2;
+		
+		System.out.println(n);
+		
+
+	}
+
+}
+
+
+Section 9
+1.
+Unicode is a character Encoding scheme. It is a standard that provides a code for letters and symbols of all languagesin the world. Every character has a fixed size of 2 bytes. It starts with a backslash.
+
+2.
+class UnicodeCharacter
+{
+public static void main(String args[] )
+	{	   	
+		
+		char ch = '\u03c0';
+		System.out.println("Your character is "+ch + ".This is great!");
+		
+
+	}
+
+}
+
+
+Section 10
+1.
+Escape sequence:
+\t - This escape sequence is for inserting a tab. ("It should \t work")
+\\ - This escape sequence is for printing a backslash on the text - ("\\This makes sense")
+\n - This escape sequence is for moving to the next line - ("Hello \nWorld!")
+\" - This escape sequence is for inserting a double quote - ("This is my \"chance\"")
+\' - This escape sequence is for inserting a single quote - ('This is my \'chance\'')
+
+2.
+class EscapeSequence
+{
+public static void main(String args[] )
+	{	   	
+		System.out.println("This is \"team\" java");
+		
+
+	}
+
+}
+
+
+Section 11
+Keywords: All keyword are in lowercase
+A peson cannot have a name called aeroplane
+They are reserved and cannot be used as a name
+
+Identifiers: It uses camelCasing notation
+It cannot start with digit
+Keywords cannot be used as identifiers
+
+2. 
+else - Alway execute if the first condition evaluetes to false, it moves to else part.
+char - It is a primitive datatype for a single character
+int - It is a primitive datatype for integer
+float - It is a primitive datatype for float and a number must have an f as a suffix
+boolean - It is a primitive datatype and returs true or false
+
+
+Section 12
+1.
+Var args are list of arguments or list of values just like an array. Var Args are represented by using 3 dots ...
+
+2.Example
+class VarArgs1
+{
+
+public static void main( String... args ) 
+	{
+        	
+		int a = 4;
+		int b = 7;
+		int sum = a + b;
+        	System.out.println(sum);
+        	
+    	}
+		
+}
