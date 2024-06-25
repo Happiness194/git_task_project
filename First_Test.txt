@@ -59,24 +59,38 @@ public static void main(String args[] )
 
 
 2. 
+class ArithmaticCalculation
+{
+public static void main(String args[] )
+	{
 		int a = 5;
 		int b = 2;
-		System.out.println(a + b);		7
-		System.out.println(a - b);		3
-		System.out.println(a * b);		10
-		System.out.println(a / b);		2
-		System.out.println(a % b);		1
+		System.out.println(a + b);		// 7
+		System.out.println(a - b);		// 3
+		System.out.println(a * b);		// 10
+		System.out.println(a / b);		// 2
+		System.out.println(a % b);		// 1
+	}
+}
+
 
 Section 2
 1. 
+class RationalOperator
+{
+public static void main(String args[] )
+	{
 		int x = 10;
 		int y = 20;
-		System.out.println(x == y);		false
-		System.out.println(x != y);		true		
-		System.out.println(x > y);		false
-		System.out.println(x < y);		true
-		System.out.println(x >= y);		false
-		System.out.println(x <= y);		true
+		System.out.println(x == y);		// false
+		System.out.println(x != y);		// true		
+		System.out.println(x > y);		// false
+		System.out.println(x < y);		// true
+		System.out.println(x >= y);		// false
+		System.out.println(x <= y);		// true
+	}
+}
+
 
 2.
 class Compare
@@ -97,15 +111,14 @@ class BinaryOutput
 {
 public static void main(String args[] )
 	{
-	   	int a = 5; // 0101 in binary
-		int b = 3; // 0011 in binary
-		System.out.println(a & b);		1
-		System.out.println(a | b);		7
-		System.out.println(a ^ b);		6
-		System.out.println(~a);			-6
-		System.out.println(a << 1);		10
-		System.out.println(a >> 1);		2
-
+	   	int a = 5; 				// 0101 in binary
+		int b = 3; 				// 0011 in binary
+		System.out.println(a & b);		// 1
+		System.out.println(a | b);		// 7
+		System.out.println(a ^ b);		// 6
+		System.out.println(~a);			// -6
+		System.out.println(a << 1);		// 10
+		System.out.println(a >> 1);		// 2
 
 	}
 
@@ -116,12 +129,12 @@ class BitwiseOutput
 {
 public static void main(String args[] )
 	{
-	   	int a = 7; // 0111 in binary
-		int b = 4; // 0100 in binary
-		System.out.println(a & b);		4
-		System.out.println(a | b);		7
-		System.out.println(a ^ b);		3
-		System.out.println(~a);			-8
+	   	int a = 7; 				// 0111 in binary
+		int b = 4; 				// 0100 in binary
+		System.out.println(a & b);		// 4
+		System.out.println(a | b);		// 7
+		System.out.println(a ^ b);		// 3
+		System.out.println(~a);			// -8
 
 	}
 
@@ -147,8 +160,6 @@ public static void main(String args[] )
 		int c = (int) b;  //Can't save double to int hence the conversion
     		System.out.println(c);    
 		
-				
-
 	}
 
 }
@@ -164,7 +175,6 @@ public static void main(String args[] )
 		int n = Integer.parseInt(s); 
 		System.out.println(n);
 		
-
 	}
 
 }
@@ -184,7 +194,6 @@ public static void main(String args[] )
 		int result =  firstNum + secondNum;
 		System.out.println("The result is "+ result);
 		
-
 	}
 
 }
@@ -212,9 +221,7 @@ public static void main(String args[] )
 		
 		 byte range;
     		range = 123;
-    		System.out.println(range);    // 
-		
-				
+    		System.out.println(range);    				
 
 	}
 
@@ -229,8 +236,6 @@ public static void main(String args[] )
     		range = 123;
     		System.out.println(range);    
 		
-				
-
 	}
 
 }
@@ -244,8 +249,6 @@ public static void main(String args[] )
     		range = 123f;
     		System.out.println(range);    
 		
-				
-
 	}
 
 }
@@ -254,12 +257,10 @@ class CharacterRange
 {
 public static void main(String args[] )
 	{	   	
-		
+	
 		char range;
     		range = '7';
-    		System.out.println(range);    
-		
-				
+    		System.out.println(range);    				
 
 	}
 
@@ -273,8 +274,6 @@ public static void main(String args[] )
 		boolean range = false;
     		System.out.println(range);    
 		
-				
-
 	}
 
 }
@@ -285,9 +284,7 @@ public static void main(String args[] )
 	{	   	
 		
 		long range = 2147483647;
-    		System.out.println(range);    
-		
-				
+    		System.out.println(range);    		
 
 	}
 
@@ -301,8 +298,6 @@ public static void main(String args[] )
 		short range = 301;
     		System.out.println(range);    
 		
-				
-
 	}
 
 }
@@ -326,7 +321,6 @@ public static void main(String args[] )
 		
 		System.out.println(n);
 		
-
 	}
 
 }
@@ -344,7 +338,6 @@ public static void main(String args[] )
 		
 		System.out.println(n);
 		
-
 	}
 
 }
@@ -363,7 +356,6 @@ public static void main(String args[] )
 		char ch = '\u03c0';
 		System.out.println("Your character is "+ch + ".This is great!");
 		
-
 	}
 
 }
@@ -385,13 +377,13 @@ public static void main(String args[] )
 	{	   	
 		System.out.println("This is \"team\" java");
 		
-
 	}
 
 }
 
 
 Section 11
+1.
 Keywords: All keyword are in lowercase
 A peson cannot have a name called aeroplane
 They are reserved and cannot be used as a name
